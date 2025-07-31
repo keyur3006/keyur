@@ -1,0 +1,142 @@
+export const drinks = [
+  {
+    id: "masala-chai",
+    title: "Masala Chai",
+    image: "https://media.istockphoto.com/id/480457908/cs/fotografie/%C4%8Daj.jpg?s=612x612&w=0&k=20&c=INakNOHa7i1Q9NfXb6zcGIr_vsgh2A8n5czqvUJepAY=",
+    price: "₹40",
+    quantity: "1 cup",
+    description: "Spiced Indian tea brewed with milk and herbs",
+    rating: 4,
+    ingredients: ["Tea leaves", "Milk", "Sugar", "Masala"],
+    instructions: [
+      "Boil water with tea and spices.",
+      "Add milk and sugar.",
+      "Strain and serve hot.",
+    ],
+  },
+  {
+    id: "cold-coffee",
+    title: "Cold Coffee",
+    image: "https://media.istockphoto.com/id/1366672341/cs/fotografie/sklenice-s-ledem-a-k%C3%A1vou.jpg?s=612x612&w=0&k=20&c=2GFMcQ7bWEgP0iADZPIhi2LMIBxNdJdUZl3AJZU9RhE=",
+    price: "₹90",
+    quantity: "1 glass",
+    description: "Chilled coffee with ice cream",
+    rating: 4.6,
+    ingredients: ["Coffee", "Milk", "Ice cream", "Sugar"],
+    instructions: [
+      "Blend all ingredients.",
+      "Pour into glass.",
+      "Top with ice cream.",
+    ],
+  },
+  {
+    id: "lassi",
+    title: "Sweet Lassi",
+    image:
+      "https://media.istockphoto.com/id/1008799838/cs/fotografie/obr%C3%A1zek-sklenice-lassi-vyroben%C3%A9-z-ml%C3%A9%C4%8Dn%C3%A9ho-tvarohu.jpg?s=612x612&w=0&k=20&c=q-_VB8M_AKDhHiHICkc22Rl7-TE628cMkRPezO8LtfI=",
+    price: "₹40",
+    quantity: "1 glass",
+    description: "Refreshing yogurt-based sweet drink",
+    rating: 4.7,
+    ingredients: ["Yogurt", "Sugar", "Cardamom", "Rosewater"],
+    instructions: [
+      "Blend yogurt with sugar and flavoring.",
+      "Serve chilled.",
+    ],
+  },
+  {
+    id: "mango-shake",
+    title: "Mango Shake",
+    image:
+      "https://media.istockphoto.com/id/525177289/cs/fotografie/%C4%8Derstv%C3%A1-mangov%C3%A1-%C5%A1%C5%A5%C3%A1va-na-tropick%C3%A9-pl%C3%A1%C5%BEi.jpg?s=612x612&w=0&k=20&c=i6y8sCsOcv8RaXsYDPgxwOIYEyC6n_PmI8LBpyE0_Ow=",
+    price: "₹50",
+    quantity: "1 glass",
+    description: "Creamy mango milkshake",
+    rating: 4.6,
+    ingredients: ["Mango", "Milk", "Sugar", "Ice cubes"],
+    instructions: [
+      "Blend mango with milk and sugar.",
+      "Serve with ice cubes.",
+    ],
+  },
+  {
+    id: "jaljeera",
+    title: "Jaljeera",
+    image:
+      "https://media.istockphoto.com/id/973891832/cs/fotografie/letn%C3%AD-n%C3%A1poj-jaljeera-nebo-jaljira.jpg?s=612x612&w=0&k=20&c=pOj2yNf2AorD7A4piQFzjkfwy2Es4hgiIAIbwJ83DoE=",
+    price: "₹25",
+    quantity: "1 glass",
+    description: "Tangy cumin-flavored summer drink",
+    rating: 4.4,
+    ingredients: ["Cumin", "Mint", "Tamarind", "Water", "Spices"],
+    instructions: [
+      "Grind spices and herbs.",
+      "Mix with cold water.",
+      "Serve chilled.",
+    ],
+  },
+  {
+    id: "buttermilk",
+    title: "Buttermilk",
+    image:
+      "https://media.istockphoto.com/id/1427294117/cs/fotografie/detail-letn%C3%ADho-n%C3%A1poje-podm%C3%A1sl%C3%AD-nebo-mattha-nebo-sklenice-chhachh-zdoben%C3%A9-koriandrem-z.jpg?s=612x612&w=0&k=20&c=v1MCarslLyqvSQCar-bRtMQU71_QJKiQ9HCzlZDcBTs=",
+    price: "₹20",
+    quantity: "1 glass",
+    description: "Spiced yogurt-based refreshing drink",
+    rating: 4.5,
+    ingredients: ["Curd", "Water", "Salt", "Spices"],
+    instructions: [
+      "Blend curd and water.",
+      "Add salt and spices.",
+      "Serve chilled.",
+    ],
+  },
+  {
+    id: "lemonade",
+    title: "Lemonade",
+    image:
+      "https://media.istockphoto.com/id/537228258/cs/fotografie/sklenice-zednick%C3%A9-sklenice-dom%C3%A1c%C3%AD-limon%C3%A1dy-na-rustik%C3%A1ln%C3%ADm-d%C5%99ev%C4%9B.jpg?s=612x612&w=0&k=20&c=m8yBeLjqIOdaozy4mtvY2OvzQUTwiToa8BhGjQt-JhY=",
+    price: "₹25",
+    quantity: "1 glass",
+    description: "Cool lemon drink with sugar and salt",
+    rating: 4.3,
+    ingredients: ["Lemon", "Water", "Sugar", "Salt"],
+    instructions: [
+      "Squeeze lemon in water.",
+      "Add sugar and salt.",
+      "Stir and serve.",
+    ],
+  },
+  {
+    id: "rose-milk",
+    title: "Rose Milk",
+    image:
+      "https://media.istockphoto.com/id/1256876005/cs/fotografie/r%C5%AF%C5%BEov%C3%A9-m%C4%9Bs%C3%AD%C4%8Dn%C3%AD-ml%C3%A9ko-ve-sklen%C4%9Bn%C3%BDch-kel%C3%ADmc%C3%ADch-a-padaj%C3%ADc%C3%AD-okv%C4%9Btn%C3%AD-l%C3%ADstky-r%C5%AF%C5%BE%C3%AD-na-%C5%A1ed%C3%A9.jpg?s=612x612&w=0&k=20&c=QpO9Gy7_jaITRb3ORYIic6MwpDxWNJ8P2-judekvsHI=",
+    price: "₹35",
+    quantity: "1 glass",
+    description: "Milk flavored with rose syrup",
+    rating: 4.6,
+    ingredients: ["Milk", "Rose syrup", "Sugar"],
+    instructions: [
+      "Mix rose syrup in milk.",
+      "Add sugar.",
+      "Serve chilled.",
+    ],
+  },
+  {
+    id: "aam-panna",
+    title: "Aam Panna",
+    image:
+      "https://media.istockphoto.com/id/1220350725/cs/fotografie/indick%C3%A1-solen%C3%A1-limon%C3%A1da-aam-panna.jpg?s=612x612&w=0&k=20&c=fWn6u7ENepq5STUIGIY6fUgInc8fwW-Dt9aSzI3IV_Y=",
+    price: "₹30",
+    quantity: "1 glass",
+    description: "Raw mango drink to cool the body",
+    rating: 4.5,
+    ingredients: ["Raw mango", "Mint", "Spices", "Sugar"],
+    instructions: [
+      "Boil and pulp mangoes.",
+      "Mix with sugar, mint, spices.",
+      "Serve chilled.",
+    ],
+  },
+];
