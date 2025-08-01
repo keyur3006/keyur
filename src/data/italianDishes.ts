@@ -10,9 +10,16 @@ export const italianDishes = [
     rating: 5,
     ingredients: ["Pizza base", "Tomato sauce", "Mozzarella", "Basil"],
     instructions: [
-      "Spread sauce on base.",
-      "Add cheese and basil.",
-      "Bake at 220°C for 10–15 mins.",
+     "🔥 Step 1: Preheat oven to 220°C (430°F).",
+  "🍞 Step 2: Place the pizza base on a tray or pizza stone.",
+  "🍅 Step 3: Spread tomato sauce evenly using a spoon.",
+  "🧀 Step 4: Add grated mozzarella cheese generously.",
+  "🌿 Step 5: Top with fresh basil and optional ingredients (olives, mushrooms, etc).",
+  "🫒 Step 6: Drizzle olive oil for added flavor.",
+  "🧤 Step 7: Carefully place in the preheated oven.",
+  "⏱️ Step 8: Bake for 10–15 minutes until crust is golden.",
+  "❄️ Step 9: Let it cool for a few minutes after baking.",
+  "🍕 Step 10: Slice, serve, and enjoy your delicious pizza!",
     ],
   },
   {
@@ -26,10 +33,15 @@ export const italianDishes = [
     rating: 4.7,
     ingredients: ["Burger bun", "Veg patty", "Lettuce", "Tomato", "Cheese"],
     instructions: [
-      "Toast the bun.",
-      "Cook the patty.",
-      "Assemble with veggies and sauce.",
-    ],
+  "Step 1: Toast the burger buns until golden brown.",
+  "Step 2: Grill or shallow-fry the vegetable patty until crisp.",
+  "Step 3: Spread mayo or sauce on the bun base.",
+  "Step 4: Add lettuce, tomato slices, and onion rings.",
+  "Step 5: Place the patty on top of the veggies.",
+  "Step 6: Add cheese slice and more sauce, if desired.",
+  "Step 7: Cover with the top bun and serve hot."
+]
+
   },
   {
     id: "veg-sushi-roll",
@@ -42,10 +54,15 @@ export const italianDishes = [
     rating: 4.5,
     ingredients: ["Sushi rice", "Nori", "Cucumber", "Carrot", "Avocado"],
     instructions: [
-      "Prepare and season the rice.",
-      "Place fillings on nori.",
-      "Roll tightly and slice.",
-    ],
+  "Step 1: Rinse and cook sushi rice; season with vinegar, sugar, and salt.",
+  "Step 2: Lay a nori sheet on a bamboo mat.",
+  "Step 3: Spread a thin layer of rice evenly over the nori.",
+  "Step 4: Add thin strips of cucumber, avocado, and carrots.",
+  "Step 5: Roll tightly using the mat.",
+  "Step 6: Slice into equal pieces using a wet knife.",
+  "Step 7: Serve with soy sauce, pickled ginger, and wasabi."
+]
+
   },
   {
     id: "veggie-taco",
@@ -58,10 +75,14 @@ export const italianDishes = [
     rating: 4.6,
     ingredients: ["Taco shells", "Beans", "Onion", "Capsicum", "Salsa"],
     instructions: [
-      "Heat taco shells.",
-      "Cook veggie filling.",
-      "Fill tacos and top with salsa.",
-    ],
+  "Step 1: Warm the taco shells in a pan or oven.",
+  "Step 2: Cook mixed vegetables with taco seasoning.",
+  "Step 3: Fill shells with the veggie mixture.",
+  "Step 4: Top with shredded lettuce and chopped tomatoes.",
+  "Step 5: Add cheese, sour cream, or salsa as desired.",
+  "Step 6: Garnish with cilantro and serve immediately."
+]
+
   },
   {
     id: "ravioli-spinach",
@@ -73,10 +94,13 @@ export const italianDishes = [
     rating: 4.7,
     ingredients: ["Ravioli dough", "Spinach", "Ricotta", "Butter"],
     instructions: [
-      "Stuff dough with spinach ricotta.",
-      "Boil till cooked.",
-      "Toss in butter sauce."
-    ]
+  "Step 1: Boil spinach ravioli in salted water until they float.",
+  "Step 2: In a pan, melt butter and sauté garlic.",
+  "Step 3: Add cream or tomato sauce and simmer for 5 minutes.",
+  "Step 4: Drain ravioli and toss in the sauce.",
+  "Step 5: Sprinkle grated parmesan and serve hot."
+]
+
   },
   {
     id: "gnocchi-pomodoro",
@@ -88,10 +112,13 @@ export const italianDishes = [
     rating: 4.6,
     ingredients: ["Gnocchi", "Tomato sauce", "Parmesan", "Garlic"],
     instructions: [
-      "Boil gnocchi.",
-      "Prepare sauce.",
-      "Mix and serve with cheese."
-    ]
+  "Step 1: Boil gnocchi until they float to the surface.",
+  "Step 2: In a pan, cook crushed tomatoes with garlic and olive oil.",
+  "Step 3: Add basil and salt; simmer for 10 minutes.",
+  "Step 4: Mix in cooked gnocchi and toss gently.",
+  "Step 5: Top with parmesan and serve warm."
+]
+
   },
   {
     id: "risotto-mushroom",
@@ -103,10 +130,14 @@ export const italianDishes = [
     rating: 4.8,
     ingredients: ["Arborio rice", "Mushrooms", "Stock", "Parmesan"],
     instructions: [
-      "Sauté mushrooms.",
-      "Cook rice slowly in stock.",
-      "Add parmesan and mix."
-    ]
+  "Step 1: Sauté chopped onions in butter.",
+  "Step 2: Add arborio rice and toast for 2–3 minutes.",
+  "Step 3: Gradually add warm vegetable broth, stirring constantly.",
+  "Step 4: Sauté mushrooms separately and add mid-way.",
+  "Step 5: Once creamy, mix in parmesan and a knob of butter.",
+  "Step 6: Garnish with parsley and serve immediately."
+]
+
   },
   {
     id: "eggplant-parmigiana",
@@ -118,10 +149,15 @@ export const italianDishes = [
     rating: 4.7,
     ingredients: ["Eggplant", "Tomato sauce", "Mozzarella", "Parmesan"],
     instructions: [
-      "Slice and bake eggplants.",
-      "Layer with sauce and cheese.",
-      "Bake at 200°C for 20 mins."
-    ]
+  "Step 1: Slice eggplant and salt them to remove bitterness.",
+  "Step 2: Coat in flour, dip in egg, then breadcrumbs.",
+  "Step 3: Fry slices until golden and drain excess oil.",
+  "Step 4: Layer with tomato sauce and mozzarella in a baking dish.",
+  "Step 5: Repeat layers and finish with cheese.",
+  "Step 6: Bake at 180°C (350°F) for 25–30 minutes until bubbly.",
+  "Step 7: Let rest before serving."
+]
+
   },
   {
     id: "spaghetti-bolognese",
@@ -133,10 +169,15 @@ export const italianDishes = [
     rating: 5,
     ingredients: ["Spaghetti", "Ground meat", "Tomato", "Onion", "Garlic"],
     instructions: [
-      "Cook spaghetti.",
-      "Prepare meat sauce.",
-      "Mix and serve hot."
-    ]
+  "Step 1: Cook spaghetti in salted water until al dente.",
+  "Step 2: In a pan, sauté onions, garlic, and chopped veggies.",
+  "Step 3: Add lentils or plant-based mince and cook for 5–7 mins.",
+  "Step 4: Pour in tomato puree and Italian herbs.",
+  "Step 5: Simmer sauce until thickened.",
+  "Step 6: Drain spaghetti and mix with sauce.",
+  "Step 7: Top with fresh basil and vegan cheese."
+]
+
   },
   {
     id: "tortellini-pesto",
@@ -148,10 +189,13 @@ export const italianDishes = [
     rating: 4.9,
     ingredients: ["Tortellini", "Pesto sauce", "Parmesan"],
     instructions: [
-      "Boil tortellini.",
-      "Toss with pesto and parmesan.",
-      "Serve warm."
-    ]
+  "Step 1: Boil tortellini as per package instructions.",
+  "Step 2: In a bowl, mix pesto sauce with a splash of pasta water.",
+  "Step 3: Drain tortellini and toss with pesto.",
+  "Step 4: Garnish with parmesan and pine nuts.",
+  "Step 5: Serve with fresh basil on top."
+]
+
   },
   {
     id: "penne-arrabbiata",
@@ -163,9 +207,13 @@ export const italianDishes = [
     rating: 4.5,
     ingredients: ["Penne", "Tomato", "Chili flakes", "Garlic"],
     instructions: [
-      "Cook penne.",
-      "Prepare spicy tomato sauce.",
-      "Mix and serve."
-    ]
+  "Step 1: Cook penne pasta until al dente.",
+  "Step 2: In a pan, heat olive oil and sauté garlic and chili flakes.",
+  "Step 3: Add crushed tomatoes and cook for 10 minutes.",
+  "Step 4: Season with salt, pepper, and fresh basil.",
+  "Step 5: Toss in the cooked penne.",
+  "Step 6: Top with grated parmesan and serve hot."
+]
+
   }
 ];

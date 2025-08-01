@@ -1,20 +1,39 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com"; // << Import EmailJS
 
 const ContactPage = () => {
   const [name, setName] = useState("Keyur divan");
-const [email, setEmail] = useState("keyurdivan@gmail.com");
-const [message, setMessage] = useState("");
-
+  const [email, setEmail] = useState("keyurdivan@gmail.com");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    alert(`Thank you, ${name}! Your message has been received.`);
+    const templateParams = {
+      name,
+      email,
+      message,
+    };
 
-    // फॉर्म क्लियर कर दो
-    setName("keyur divan");
-    setEmail("keyurdivan@gmail.com");
-    setMessage("");
+    emailjs
+      .send(
+        "YOUR_SERVICE_ID",       // 🔁 તમારું EmailJS Service ID મૂકો
+        "template_n0dfzbv",      // 🔁 Template ID
+        templateParams,
+        "JSlXTgKtm8AYHhAh5"      // 🔁 Public Key (User ID)
+      )
+      .then(
+        () => {
+          alert(`Thank you, ${name}! Your message has been sent.`);
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          alert("Something went wrong. Please try again.");
+        }
+      );
   };
 
   return (
