@@ -17,15 +17,17 @@ export const Header: React.FC = () => {
           <Link to="/" className="hover:text-gray-700">
             Home
           </Link>
-          <Link to="/home" className="hover:text-gray-700">
-            Recipe Idea
-          </Link>
+          
           <Link to="/add-recipe" className="hover:text-gray-700">
             Add Recipe
           </Link>
           <Link to="/about" className="hover:text-gray-700">
             About Us
           </Link>
+          <Link to="/Contact" className="hover:text-gray-700">
+            Contact
+          </Link>
+          
         </nav>
       </div>
     </header>

@@ -47,7 +47,7 @@ const RecipeHomepage: React.FC = () => {
           <DishSlider
             items={indianDishes}
             title="Popular Indian Dishes"
-            icon="https://api.builder.io/api/v1/image/assets/TEMP/3c1898bc88211d8e469dad5c160e7686b8d41041?apiKey=b59f74ae8c9444f28ee33eff06842d33"
+            icon="https://cdn-icons-png.flaticon.com/128/2335/2335141.png"
           />
         </motion.div>
 
@@ -60,7 +60,7 @@ const RecipeHomepage: React.FC = () => {
           <DishSlider
             items={italianDishes}
             title="Top Italian Main Course Dishes"
-            icon="https://api.builder.io/api/v1/image/assets/TEMP/e72924603d476c40209a3fc319bd48c6b12860d8?apiKey=b59f74ae8c9444f28ee33eff06842d33"
+            icon="https://cdn-icons-png.flaticon.com/128/8494/8494765.png"
           />
         </motion.div>
 
@@ -73,7 +73,7 @@ const RecipeHomepage: React.FC = () => {
           <DishSlider
             items={drinks}
             title="Popular Drinks"
-            icon="https://api.builder.io/api/v1/image/assets/TEMP/f5c2a4bb0c8f107bf46d2cb942bd4d783e4fc81d?apiKey=b59f74ae8c9444f28ee33eff06842d33"
+            icon="https://cdn-icons-png.flaticon.com/128/2738/2738730.png"
           />
         </motion.div>
         
